@@ -1,5 +1,5 @@
 ---
-title: "INSERT_TITLE_HERE "
+title: "INSERT_TITLE_HERE"
 author: "hrbrmstr"
 date: "`r Sys.Date()`"
 output: r7markdown::default
