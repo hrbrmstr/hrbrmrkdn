@@ -21,4 +21,4 @@ Alternately, you could just start a blank R markdown document and replace the YA
     output: hrbrmrkdn::default
     ---
     
-There is currently only the `hrbrmrkdn::default` template that uses [Skeleton](http://getskeleton.com) instead of Bootstrap, auto-places a Rapid7 logo at the top and formats the author & date metdata a bit differently.
+There is currently only the `hrbrmrkdn::default` template that uses [Skeleton](http://getskeleton.com) instead of Bootstrap, auto-places headers/footers and formats the author & date metdata a bit differently. You can see a sample of it [on RPubs](http://rpubs.com/hrbrmstr/dissolvingpolygons).
