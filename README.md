@@ -10,7 +10,7 @@ Alternately, you could just start a blank R markdown document and replace the YA
     ---
     title: "Analysis Title"
     author: "Some Author"
-    date: "2016-01-20"
+    date: "2016-01-21"
     output: hrbrmrkdn::default
     ---
     
