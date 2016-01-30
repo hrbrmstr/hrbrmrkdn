@@ -39,14 +39,14 @@ ellipses.}
 
 \item{self_contained}{Produce a standalone HTML file with no external
 dependencies, using data: URIs to incorporate the contents of linked
-scripts, stylesheets, images, and videos. Note that even for self
-contained documents MathJax is still loaded externally (this is
-necessary because of it's size).}
+scripts, stylesheets, images, and videos. Note that even for self contained
+documents MathJax is still loaded externally (this is necessary because of
+it's size).}
 
 \item{theme}{Visual theme ("default", "cerulean", "journal", "flatly",
-"readable", "spacelab", "united", or "cosmo"). Pass \code{NULL} for
-no theme (in this case you can use the \code{css} parameter to add your own
-styles).}
+"readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone",
+"simplex", or "yeti"). Pass \code{NULL} for no theme (in this case you can
+use the \code{css} parameter to add your own styles).}
 
 \item{highlight}{Syntax highlighting style. Supported styles include
 "default", "tango", "pygments", "kate", "monochrome", "espresso",
@@ -58,12 +58,12 @@ the official MathJax CDN. The "local" option uses a local version of
 MathJax (which is copied into the output directory). You can pass an
 alternate URL or pass \code{NULL} to exclude MathJax entirely.}
 
-\item{template}{Pandoc template to use for rendering. Pass "default"
-to use the rmarkdown package default template; pass \code{NULL}
-to use pandoc's built-in template; pass a path to use a custom template
-that you've created. Note that if you don't use the "default" template
-then some features of \code{html_document} won't be available (see the
-Templates section below for more details).}
+\item{template}{Pandoc template to use for rendering. Pass "default" to use
+the rmarkdown package default template; pass \code{NULL} to use pandoc's
+built-in template; pass a path to use a custom template that you've
+created. Note that if you don't use the "default" template then some
+features of \code{html_document} won't be available (see the Templates
+section below for more details).}
 
 \item{css}{One or more css files to include}
 
