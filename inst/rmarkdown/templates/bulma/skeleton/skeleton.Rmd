@@ -2,7 +2,7 @@
 title: "INSERT_TITLE_HERE"
 author: "hrbrmstr"
 date: "`r Sys.Date()`"
-output: hrbrmrkdn::skeleton
+output: hrbrmrkdn::bulma
 ---
 Captain John Sheridan: You know, I just had a thought. You've been back and forth to your world so many times since you got here. How do I know you're the same Vorlon? Inside that encounter suit you could be anyone. Kosh Naranek: I have *always* been here. Captain John Sheridan: Oh, yeah? You said that about me too. Kosh Naranek: Yes. [starts to walk away] Captain John Sheridan: I really *hate* it when you do that. Kosh Naranek: [turns around] Good! Delenn: I am Grey. I stand between the candle and the star. We are Grey. We stand between the darkness and the light. Lt. Corwin: Do we trust no-one then? Cmdr. Susan Ivanova: No, trust Ivanova, trust yourself, anybody else, shoot'em. Ta'Lon: Congratulations citizen G'Kar. You are now a religious icon. Susan Ivanova: So the next time we find out where the Shadows plan to strike, we can mine the area, and as soon as they come out of hyperspace... Citizen G'Kar: Then, as you so concisely say, Boom!
 
@@ -17,13 +17,13 @@ plot(1:10)
 plot(10:1)
 ```
 
-### Third level
 
-Dr. Stephen Franklin: Have a seat, lend a hand, or get out of my way, but do not question me in my lab, doctor! Lt. Corwin: Do we trust no-one then? Cmdr. Susan Ivanova: No, trust Ivanova, trust yourself, anybody else, shoot'em. Emperor Cartagia: [to Londo Mollari] The trouble with being infallible is that you have to deal with everyone else making mistakes. Marcus Cole: That's a lot of ships! That's a bloody awful lot of ships! Citizen G'Kar: We all believe in something... greater than ourselves, even if it's just the blind forces of chance.
 
-#### Fourth level
 
-Delenn: I am Grey. I stand between the candle and the star. We are Grey. We stand between the darkness and the light. Ta'Lon: Congratulations citizen G'Kar. You are now a religious icon. Susan Ivanova: Worst case of testosterone poisoning I have ever seen. [an Earth Gov battle fleet have been prevented from seizing Babylon 5] Delenn: Your Government will think twice before engaging a Minbari fleet. Marcus Cole: They're not *my* government! Back on the colony, Earth was just a place that sent us books and vids, and took 30% of our income. Should have given them the boot years ago! Emperor Cartagia: [to Londo Mollari] The trouble with being infallible is that you have to deal with everyone else making mistakes.
+
+
+
+
 
 
 ```{r bib, include=FALSE}

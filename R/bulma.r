@@ -1,13 +1,13 @@
-#' hrbrmstr's Skeleton R markdown format
+#' hrbrmstr's bulma R markdown format
 #'
-#' Template for creating an R markdown document in Skeleton style
+#' Template for creating an R markdown document in hrbrmstr bulma style
 #'
-#' Based on the \href{http://getskeleton.com/}{Skeleton CSS framework}.
+#' Based on the \href{https://github.com/jgthms/bulma/}{Bulma CSS framework}.
 #'
 #' @inheritParams rmarkdown::html_document
 #'
 #' @export
-skeleton <- function(toc = FALSE, toc_depth = 3, number_sections = FALSE,
+bulma <- function(toc = FALSE, toc_depth = 3, number_sections = FALSE,
                     fig_width = 7, fig_height = 5, fig_retina = if (!fig_caption) 2,
                     fig_caption = FALSE, dev = "png", smart = TRUE, self_contained = TRUE,
                     theme = NULL, highlight = "tango", mathjax = "default",
@@ -15,11 +15,11 @@ skeleton <- function(toc = FALSE, toc_depth = 3, number_sections = FALSE,
                     lib_dir = NULL, md_extensions = NULL, pandoc_args = NULL,
                     ...) {
 
-  css <- c(css, list.files(system.file("rmarkdown", "templates", "default", "resources",
+  css <- c(css, list.files(system.file("rmarkdown", "templates", "bulma", "resources",
                                        package = "hrbrmrkdn"),
                            "*.css$", full.names=TRUE))
 
-  header <- system.file("rmarkdown", "templates", "default", "header.html",
+  header <- system.file("rmarkdown", "templates", "bulma", "header.html",
                         package = "hrbrmrkdn")
 
   args <- c("--standalone")
@@ -28,7 +28,7 @@ skeleton <- function(toc = FALSE, toc_depth = 3, number_sections = FALSE,
 
   if (identical(template, "default"))
     args <- c(args, "--template",
-              rmarkdown::pandoc_path_arg(system.file("rmarkdown", "templates", "default", "base.html",
+              rmarkdown::pandoc_path_arg(system.file("rmarkdown", "templates", "bulma", "base.html",
                                                      package = "hrbrmrkdn")))
   else if (!is.null(template))
     args <- c(args, "--template", rmarkdown::pandoc_path_arg(template))
@@ -69,10 +69,4 @@ skeleton <- function(toc = FALSE, toc_depth = 3, number_sections = FALSE,
                                                             template = template,
                                                             pandoc_args = pandoc_args,
                                                             ...))
-}
-
-#' @rdname skeleton
-#' @export
-default <- function(...) {
-  skeleton(...)
 }
