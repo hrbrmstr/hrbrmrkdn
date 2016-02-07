@@ -3,5 +3,6 @@
 export(bulma)
 export(default)
 export(skeleton)
+export(wpi)
 import(knitr)
 import(rmarkdown)

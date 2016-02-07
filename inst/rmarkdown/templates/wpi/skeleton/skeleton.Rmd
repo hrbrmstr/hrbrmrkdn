@@ -1,0 +1,12 @@
+---
+title: "WPI Intro to R Handout"
+author: "Bob Rudis (@hrbrmstr)"
+date: "`r Sys.Date()`"
+output: hrbrmrkdn::wpi
+---
+
+
+```{r bib, include=FALSE}
+# KEEP THIS AT THE END OF THE DOCUMENT TO GENERATE A LOCAL bib FILE FOR PKGS USED
+knitr::write_bib(sub("^package:", "", grep("package", search(), value=TRUE)), file='skeleton.bib')
+```

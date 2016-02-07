@@ -1,0 +1,94 @@
+.authordate {
+  border-top:1px solid #330301;
+  border-bottom:1px solid #330301;
+  margin-bottom:30px;
+}
+
+.main-container {
+  margin-top:48pt;
+  color:#292929;
+}
+h1.title {
+    font-size: 5.0rem;
+}
+
+h1 {
+  font-size: 3.0rem;
+  font-weight:700;
+}
+
+h2 {
+  font-size: 2.0rem;
+  color: #750f19;
+  font-weight:500;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #750f19;
+  font-weight:400;
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: #750f19;
+  font-weight:300;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color:#AC2B37;
+}
+
+ul { padding-left: 3rem; }
+.header-section-number:after {
+  content: ".";
+}
+.hrbrhdr {
+  position:fixed;
+  width:100%;
+  background:#750F19;
+  color:white;
+  font-weight:400;
+  font-size:24pt;
+  height:40pt;
+  padding:2px;
+  padding-right:10px;
+  top: 0;
+  z-index: 100;
+  text-align:right;
+}
+
+.hrbrhdr > a:link,
+.hrbrhdr > a:visited,
+.hrbrhdr > a:hover,
+.hrbrhdr > a:active {
+  color:white;
+  text-decoration: none;
+}
+
+.hrbrhdr > a:hover {
+  color:#FAA637;
+}
+
+.hrbrftr {
+  border-top:1px solid #330301;
+  margin-top:30px;
+  text-align:center;
+  font-size:10px;
+}
+
+.hrbrftr > a:link,
+.hrbrftr > a:visited,
+.hrbrftr > a:hover,
+.hrbrftr > a:active {
+  color:#292929;
+  text-decoration: none;
+}
+
+.hrbrftr > a:hover {
+  color:#292929;
+}
+
