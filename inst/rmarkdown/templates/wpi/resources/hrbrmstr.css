@@ -4,6 +4,10 @@
   margin-bottom:30px;
 }
 
+img {
+  max-width: 100%;
+}
+
 .main-container {
   margin-top:48pt;
   color:#292929;

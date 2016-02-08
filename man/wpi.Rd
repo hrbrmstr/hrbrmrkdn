@@ -9,7 +9,8 @@ wpi(number_sections = FALSE, fig_width = 7, fig_height = 5,
   smart = TRUE, self_contained = TRUE, highlight = "default",
   mathjax = "default", extra_dependencies = NULL, css = NULL,
   includes = NULL, keep_md = FALSE, lib_dir = NULL,
-  md_extensions = NULL, pandoc_args = NULL, ...)
+  md_extensions = NULL, toc = FALSE, toc_depth = 3, pandoc_args = NULL,
+  ...)
 }
 \arguments{
 \item{number_sections}{\code{TRUE} to number section headings}
@@ -66,6 +67,10 @@ with \code{_files} appended to it.}
 \item{md_extensions}{Markdown extensions to be added or removed from the
 default definition or R Markdown. See the \code{\link{rmarkdown_format}}
 for additional details.}
+
+\item{toc}{\code{TRUE} to include a table of contents in the output}
+
+\item{toc_depth}{Depth of headers to include in table of contents}
 
 \item{pandoc_args}{Additional command line options to pass to pandoc}
 }

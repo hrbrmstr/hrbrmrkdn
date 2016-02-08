@@ -8,26 +8,26 @@
 #'
 #' @export
 wpi <- function(number_sections = FALSE,
-                     fig_width = 7,
-                     fig_height = 5,
-                     fig_retina = if (!fig_caption) 2,
-                     fig_caption = FALSE,
-                     dev = 'png',
-                     smart = TRUE,
-                     self_contained = TRUE,
-                     highlight = "default",
-                     mathjax = "default",
-                     extra_dependencies = NULL,
-                     css = NULL,
-                     includes = NULL,
-                     keep_md = FALSE,
-                     lib_dir = NULL,
-                     md_extensions = NULL,
-                     pandoc_args = NULL,
-                     ...) {
+                fig_width = 7,
+                fig_height = 5,
+                fig_retina = if (!fig_caption) 2,
+                fig_caption = FALSE,
+                dev = 'png',
+                smart = TRUE,
+                self_contained = TRUE,
+                highlight = "default",
+                mathjax = "default",
+                extra_dependencies = NULL,
+                css = NULL,
+                includes = NULL,
+                keep_md = FALSE,
+                lib_dir = NULL,
+                md_extensions = NULL,
+                toc = FALSE,
+                toc_depth = 3,
+                pandoc_args = NULL,
+                ...) {
 
-  toc <- FALSE
-  toc_depth <- 3
   theme <- NULL
   template <- "default"
   code_folding <- "none"
